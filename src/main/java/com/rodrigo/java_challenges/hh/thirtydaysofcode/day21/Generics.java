@@ -3,8 +3,8 @@ package com.rodrigo.java_challenges.hh.thirtydaysofcode.day21;
 import java.util.Scanner;
 
 class Printer <T> {
-	public <E> void printArray( E[] values) {
-		for (E element : values) {
+	public void printArray( T[] values) {
+		for (T element : values) {
 			System.out.println(element);
 		}
 	}
